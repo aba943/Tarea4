@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Proyecto1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <nav class="navbar navbar-expand-lg  bg-transparent ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/redragon.png" class="icono" style="width: 50px;
+                height: 50px;">
+                </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html" style="color: white;">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="materias.html">Materias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="deportes.html">Deportes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="otros.html">Otros</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="SobreMi.html">Jose Abraham Bautista coaquira</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </nav>
+
+      <h2 style="color: white;">
+        Acordion
+      </h2>
+
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              INF-111 Programacion 1
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Decripcion.</strong> 
+              Programación 1 es una asignatura de introducción a la programación. Se pretende que el alumno adquiera unos conocimientos básicos sobre las técnicas de programación y la metodología del diseño de software aplicables a los lenguajes de alto nivel tradicionales.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              INF-113 Progranmacion web 1
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Descripcion</strong> 
+              La programación orientada a la web se consideran herramientas que permiten crear programas y software, para que un ordenador funcione que debe contar con un programa que se encuentra localizado en la unidad de memoria, por lo que mediante la programación orientada a objetos es una tendencia que renueva la forma
+             </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              INF-116 Fisica 1
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Descripcion</strong> 
+              Se estudia de manera teórico-práctica la mecánica de la partícula y de los sistemas de partículas desarrollando la capacidad del alumno para aplicar sus conocimientos de matemáticas en la resolución de problemas de ingeniería utilizando un pensamiento crítico y la actitud para enfrentar problemas complejos.
+            </div>
+          </div>
+        </div>
+      </div>
+</body>      

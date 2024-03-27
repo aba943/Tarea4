@@ -1,0 +1,22 @@
+body{
+    font-family: Poppins;
+    background-color: #1f1f1f;
+}
+
+.carousel-inner .carousel-item img{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+.carouselExampleCaptions{
+    position: absolute;
+}
+.nav-link {
+    color: white;
+}
+.card-group{
+    text-align: center;
+}
+
